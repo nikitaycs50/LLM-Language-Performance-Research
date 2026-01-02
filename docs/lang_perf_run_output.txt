@@ -1,0 +1,208 @@
+>> python scripts/lang_perf.py
+
+======================================================================
+REAL-WORLD MISTRAL LANGUAGE EVALUATION
+======================================================================
+
+Starting experiment...
+API key will be loaded from .env file
+======================================================================
+
+======================================================================
+MISTRAL AI LANGUAGE PERFORMANCE - EVERYDAY USER QUERIES
+======================================================================
+Model: mistral-large-latest
+Timestamp: 2026-01-02T09:54:49.773771
+Total test cases: 21
+======================================================================
+
+### Category: PRACTICAL ADVICE ###
+
+
+[TEST pa_01] Household Tips
+✓ Completed pa_01
+
+[TEST pa_02] Cooking
+✓ Completed pa_02
+
+[TEST pa_03] Health & Wellness
+✓ Completed pa_03
+
+### Category: TECH SUPPORT ###
+
+
+[TEST ts_01] Smartphone Issues
+✓ Completed ts_01
+
+[TEST ts_02] Computer Performance
+✓ Completed ts_02
+
+[TEST ts_03] Network Troubleshooting
+✓ Completed ts_03
+
+### Category: EDUCATION HELP ###
+
+
+[TEST eh_01] Science Explanation
+✓ Completed eh_01
+
+[TEST eh_02] Math Help
+✓ Completed eh_02
+
+[TEST eh_03] History
+✓ Completed eh_03
+
+### Category: CAREER FINANCE ###
+
+
+[TEST cf_01] Career Advice
+✓ Completed cf_01
+
+[TEST cf_02] Financial Planning
+✓ Completed cf_02
+
+[TEST cf_03] Workplace Communication
+✓ Completed cf_03
+
+### Category: ENTERTAINMENT ###
+
+
+[TEST ent_01] Entertainment Recommendation
+✓ Completed ent_01
+
+[TEST ent_02] Book Recommendations
+✓ Completed ent_02
+
+[TEST ent_03] Activity Ideas
+✓ Completed ent_03
+
+### Category: RELATIONSHIPS SOCIAL ###
+
+
+[TEST rs_01] Interpersonal Relationships
+✓ Completed rs_01
+
+[TEST rs_02] Social Skills
+✓ Completed rs_02
+
+[TEST rs_03] Gift Ideas
+✓ Completed rs_03
+
+### Category: GENERAL KNOWLEDGE ###
+
+
+[TEST gk_01] Science Facts
+✓ Completed gk_01
+
+[TEST gk_02] Basic Astronomy
+✓ Completed gk_02
+
+[TEST gk_03] Medical Knowledge
+✓ Completed gk_03
+
+======================================================================
+✓ Experiment complete! Results saved to everyday_results.json
+Total test pairs: 21
+======================================================================
+
+======================================================================
+EXPERIMENT COMPLETE!
+======================================================================
+
+Next steps:
+  python scripts/lang_perf.py analyze            # Analyze results
+  python scripts/lang_perf.py export            # Export for human evaluation
+======================================================================
+
+>> python scripts/lang_perf.py analyze
+
+======================================================================
+ANALYSIS: RUSSIAN vs ENGLISH PERFORMANCE
+======================================================================
+
+### OBJECTIVE METRICS ###
+
+Average response length:
+  Russian: 526.9 words
+  English: 666.8 words
+  Difference: 140.0 words (-21.0%)
+
+Average response time:
+  Russian: 28198ms
+  English: 20619ms
+
+### BY CATEGORY ###
+
+Activity Ideas:
+  Tests: 1
+  Russian avg: 599.0 words | English avg: 910.0 words
+Basic Astronomy:
+  Tests: 1
+  Russian avg: 131.0 words | English avg: 97.0 words
+Book Recommendations:
+  Tests: 1
+  Russian avg: 666.0 words | English avg: 1202.0 words
+Career Advice:
+  Tests: 1
+  Russian avg: 1286.0 words | English avg: 1116.0 words
+Computer Performance:
+  Tests: 1
+  Russian avg: 481.0 words | English avg: 601.0 words
+Cooking:
+  Tests: 1
+  Russian avg: 476.0 words | English avg: 528.0 words
+Entertainment Recommendation:
+  Tests: 1
+  Russian avg: 550.0 words | English avg: 618.0 words
+Financial Planning:
+  Tests: 1
+  Russian avg: 1089.0 words | English avg: 1050.0 words
+Gift Ideas:
+  Tests: 1
+  Russian avg: 336.0 words | English avg: 517.0 words
+Health & Wellness:
+  Tests: 1
+  Russian avg: 472.0 words | English avg: 1004.0 words
+History:
+  Tests: 1
+  Russian avg: 492.0 words | English avg: 602.0 words
+Household Tips:
+  Tests: 1
+  Russian avg: 344.0 words | English avg: 403.0 words
+Interpersonal Relationships:
+  Tests: 1
+  Russian avg: 283.0 words | English avg: 551.0 words
+Math Help:
+  Tests: 1
+  Russian avg: 349.0 words | English avg: 321.0 words
+Medical Knowledge:
+  Tests: 1
+  Russian avg: 441.0 words | English avg: 711.0 words
+Network Troubleshooting:
+  Tests: 1
+  Russian avg: 703.0 words | English avg: 506.0 words
+Science Explanation:
+  Tests: 1
+  Russian avg: 137.0 words | English avg: 177.0 words
+Science Facts:
+  Tests: 1
+  Russian avg: 172.0 words | English avg: 316.0 words
+Smartphone Issues:
+  Tests: 1
+  Russian avg: 607.0 words | English avg: 1279.0 words
+Social Skills:
+  Tests: 1
+  Russian avg: 519.0 words | English avg: 691.0 words
+Workplace Communication:
+  Tests: 1
+  Russian avg: 931.0 words | English avg: 803.0 words
+
+======================================================================
+
+NOTE: Quality evaluation requires manual assessment or LLM-as-judge
+See evaluation fields in JSON for detailed scoring framework
+======================================================================
+
+>> python scripts/lang_perf.py export
+
+✓ Exported 21 test pairs to human_evaluation.csv for human evaluation
