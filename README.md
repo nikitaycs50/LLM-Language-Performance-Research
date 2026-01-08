@@ -15,6 +15,20 @@ Does language choice affect how AI communicates information? This research demon
 
 ---
 
+## 🎯 Research Purpose
+
+This research was conducted with three primary objectives:
+
+1. **Test the Language Choice Hypothesis:** Investigate whether language selection in multilingual LLMs affects output quality beyond translation accuracy, specifically testing the hypothesis that Russian's morphological complexity might produce superior results in specialized domains.
+
+2. **Learn Research Methodology:** Conduct a systematic, reproducible research study from hypothesis formation through data collection, analysis, and publication—serving as both a research contribution and a learning exercise in empirical methodology.
+
+3. **Contribute to Public Knowledge:** Make the research, dataset, and methodology openly available to benefit the broader AI research community, multilingual system developers, and users seeking to optimize their LLM interactions.
+
+This work is published openly with the hope that it will inform better multilingual AI system design and encourage further research in this important area.
+
+---
+
 ## 🎯 Main Discoveries
 
 ### 1. The Length Paradox
@@ -76,7 +90,8 @@ Does language choice affect how AI communicates information? This research demon
 │
 ├── paper/
 │   ├── full_research_paper.md          # Complete 18,500-word paper
-│   └── abstract.md                     # Standalone summary
+│   ├── research_summary.md             # Executive summary and key findings
+│   └── abstract.md                     # Standalone abstract
 │
 ├── data/
 │   ├── everyday_results.json           # Full dataset (21 query pairs)
@@ -102,8 +117,9 @@ Does language choice affect how AI communicates information? This research demon
 ### View the Research
 
 1. **Read the paper:** [paper/full_research_paper.md](paper/full_research_paper.md)
-2. **See the data:** [data/everyday_results.json](data/everyday_results.json)
-3. **Check methodology:** [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
+2. **Quick summary:** [paper/research_summary.md](paper/research_summary.md) - Executive summary and key findings
+3. **See the data:** [data/everyday_results.json](data/everyday_results.json)
+4. **Check methodology:** [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
 
 ### Replicate the Study
 
@@ -316,6 +332,8 @@ This work is licensed under the **MIT License** - see [LICENSE](LICENSE) file fo
 ## 🔗 Links
 
 - **Full Research Paper:** [Read online](paper/full_research_paper.md) | [Download PDF](paper/full_research_paper.pdf)
+- **Research Summary:** [paper/research_summary.md](paper/research_summary.md) - Executive summary and key findings
+- **Abstract:** [paper/abstract.md](paper/abstract.md)
 - **LinkedIn Article:** [Summary and key findings](#) *(link after publication)*
 - **Author:** [Nikita Yampolski](https://yampolski.net)
 - **Contact:** [yampolski.net](https://yampolski.net)

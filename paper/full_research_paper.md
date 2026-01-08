@@ -10,7 +10,7 @@
 
 ## Abstract
 
-This study investigates whether language selection in multilingual large language models (LLMs) affects output quality beyond translation accuracy. Through controlled testing of 21 semantically equivalent query pairs in Russian and English using Mistral AI's latest model, we discovered that language choice fundamentally alters communication strategy, information architecture, and user optimization rather than simply translating content. Russian responses averaged 21% shorter (527 vs 667 words) with 15% higher information density, optimizing for expert-level efficiency through hierarchical structure and minimal redundancy. English responses prioritized comprehensive coverage with extensive scaffolding for learners. Processing time paradoxically favored English (20.6s) over Russian (28.2s) despite shorter Russian outputs, suggesting tokenization complexity. Our findings challenge the "English-first" assumption in AI deployment and demonstrate that LLMs encode language-specific rhetorical conventions beyond lexical translation. We propose a framework for matching language selection to user expertise level and task context, with implications for multilingual AI system design, educational technology, and cross-cultural human-computer interaction.
+This study investigates whether language selection in multilingual large language models (LLMs) affects output quality beyond translation accuracy. Through controlled testing of 21 semantically equivalent query pairs in Russian and English using Mistral AI's latest model, we discovered that language choice fundamentally alters communication strategy, information architecture, and user optimization rather than simply translating content.  Russian responses averaged 21% shorter (527 vs 667 words) with 15% higher information density, optimizing for expert-level efficiency through hierarchical structure and minimal redundancy. English responses prioritized comprehensive coverage with extensive scaffolding for learners. Processing time paradoxically favored English (20.6s) over Russian (28.2s) despite shorter Russian outputs, suggesting tokenization complexity. Our findings challenge the "English-first" assumption in AI deployment and demonstrate that LLMs encode language-specific rhetorical conventions beyond lexical translation. We propose a framework for matching language selection to user expertise level and task context, with implications for multilingual AI system design, educational technology, and cross-cultural human-computer interaction.
 
 **Keywords:** Large Language Models, Multilingual NLP, Communication Strategies, Information Architecture, User Experience, Mistral AI, Russian-English Comparison
 
@@ -23,6 +23,16 @@ This study investigates whether language selection in multilingual large languag
 Large language models (LLMs) have achieved remarkable multilingual capabilities, enabling users worldwide to interact with AI systems in their native languages. Current deployment practices typically assume English provides optimal performance due to its predominance in training data (Zhao et al., 2024; OpenAI, 2023). However, this assumption conflates two distinct dimensions: translation accuracy and communication effectiveness.
 
 While extensive research has examined cross-lingual transfer learning and translation quality in LLMs (Conneau et al., 2020; Goyal et al., 2021), surprisingly little work has investigated whether language selection affects the fundamental structure, style, and user optimization of AI responses when semantic equivalence is maintained. This gap becomes increasingly important as LLMs are deployed globally for diverse use cases ranging from technical support to educational content.
+
+### 1.1.1 Research Objectives
+
+This study was conducted with three primary objectives:
+
+1. **Hypothesis Testing:** Systematically test whether language choice in multilingual LLMs affects output quality beyond translation accuracy, specifically investigating the hypothesis that Russian's morphological complexity might produce superior results in specialized domains.
+
+2. **Methodological Learning:** Conduct a complete research cycle—from hypothesis formation through experimental design, data collection, analysis, and publication—as both a research contribution and a practical exercise in empirical methodology and reproducible research practices.
+
+3. **Public Contribution:** Make the research findings, complete dataset, and methodology openly available to benefit the broader AI research community, multilingual system developers, and users seeking to optimize their LLM interactions. This work is published with the intention of advancing public knowledge and encouraging further research in this important area.
 
 ### 1.2 Initial Hypothesis and Theoretical Foundation
 
