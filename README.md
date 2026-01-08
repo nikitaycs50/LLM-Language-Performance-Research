@@ -91,7 +91,11 @@ This work is published openly with the hope that it will inform better multiling
 ├── paper/
 │   ├── full_research_paper.md          # Complete 18,500-word paper
 │   ├── research_summary.md             # Executive summary and key findings
-│   └── abstract.md                     # Standalone abstract
+│   ├── abstract.md                     # Standalone abstract
+│   └── pdf/                            # PDF versions
+│       ├── full_research_paper.pdf
+│       ├── research_summary.pdf
+│       └── Abstract.pdf
 │
 ├── data/
 │   ├── everyday_results.json           # Full dataset (21 query pairs)
@@ -116,8 +120,8 @@ This work is published openly with the hope that it will inform better multiling
 
 ### View the Research
 
-1. **Read the paper:** [paper/full_research_paper.md](paper/full_research_paper.md)
-2. **Quick summary:** [paper/research_summary.md](paper/research_summary.md) - Executive summary and key findings
+1. **Read the paper:** [paper/full_research_paper.md](paper/full_research_paper.md) | [Download PDF](paper/pdf/full_research_paper.pdf)
+2. **Quick summary:** [paper/research_summary.md](paper/research_summary.md) | [Download PDF](paper/pdf/research_summary.pdf) - Executive summary and key findings
 3. **See the data:** [data/everyday_results.json](data/everyday_results.json)
 4. **Check methodology:** [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
 
@@ -331,9 +335,9 @@ This work is licensed under the **MIT License** - see [LICENSE](LICENSE) file fo
 
 ## 🔗 Links
 
-- **Full Research Paper:** [Read online](paper/full_research_paper.md) | [Download PDF](paper/full_research_paper.pdf)
-- **Research Summary:** [paper/research_summary.md](paper/research_summary.md) - Executive summary and key findings
-- **Abstract:** [paper/abstract.md](paper/abstract.md)
+- **Full Research Paper:** [Read online](paper/full_research_paper.md) | [Download PDF](paper/pdf/full_research_paper.pdf)
+- **Research Summary:** [Read online](paper/research_summary.md) | [Download PDF](paper/pdf/research_summary.pdf) - Executive summary and key findings
+- **Abstract:** [Read online](paper/abstract.md) | [Download PDF](paper/pdf/Abstract.pdf)
 - **LinkedIn Article:** [Summary and key findings](#) *(link after publication)*
 - **Author:** [Nikita Yampolski](https://yampolski.net)
 - **Contact:** [yampolski.net](https://yampolski.net)
