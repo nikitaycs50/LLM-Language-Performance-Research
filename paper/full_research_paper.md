@@ -2685,4 +2685,6 @@ Scripts and complete query dataset are available at: [https://github.com/nikitay
 
 Response data and evaluation results are available at: [https://github.com/nikitaycs50/LLM-Language-Performance-Research/tree/main/data](https://github.com/nikitaycs50/LLM-Language-Performance-Research/tree/main/data)
 
+**DOI:** This work has been assigned the Digital Object Identifier [10.5281/zenodo.18183880](https://doi.org/10.5281/zenodo.18183880) through Zenodo for persistent citation and access.
+
 ---

@@ -17,7 +17,7 @@ If you use this research, dataset, methodology, or findings in your work, please
   month={January},
   howpublished={\url{https://github.com/nikitaycs50/LLM-Language-Performance-Research}},
   note={Research paper, dataset, and replication code},
-  doi={[DOI if you obtain one]}
+  doi={10.5281/zenodo.18183880}
 }
 ```
 
@@ -27,7 +27,7 @@ If you use this research, dataset, methodology, or findings in your work, please
 
 **Full citation:**
 
-Yampolski, N. (2026, January). *Language-dependent communication strategies in multilingual LLMs: A comparative analysis of Russian and English in Mistral AI* [Research paper and dataset]. GitHub. https://github.com/nikitaycs50/LLM-Language-Performance-Research
+Yampolski, N. (2026, January). *Language-dependent communication strategies in multilingual LLMs: A comparative analysis of Russian and English in Mistral AI* [Research paper and dataset]. GitHub. https://github.com/nikitaycs50/LLM-Language-Performance-Research. https://doi.org/10.5281/zenodo.18183880
 
 **In-text citation:**
 
@@ -192,17 +192,13 @@ Please cite and acknowledge the source:
 
 ## DOI Registration
 
-If you obtain a DOI (Digital Object Identifier) for this work through services like Zenodo or figshare, please update citations to include it:
+This work has been assigned a DOI (Digital Object Identifier) through Zenodo:
 
-```bibtex
-doi={10.5281/zenodo.XXXXXXX}
-```
+**DOI:** [10.5281/zenodo.18183880](https://doi.org/10.5281/zenodo.18183880)
 
-To register a DOI:
-1. Create a GitHub release
-2. Link repository to Zenodo (https://zenodo.org/)
-3. Zenodo automatically creates DOI
-4. Update CITATION.md with DOI
+All citations above have been updated to include the DOI. When citing this work, please include the DOI for proper attribution and persistent access.
+
+**Zenodo record:** https://zenodo.org/record/18183880
 
 ---
 

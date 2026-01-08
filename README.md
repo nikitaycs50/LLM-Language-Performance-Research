@@ -99,13 +99,13 @@ This work is published openly with the hope that it will inform better multiling
 │
 ├── data/
 │   ├── everyday_results.json           # Full dataset (21 query pairs)
-│   └── human_evaluation.csv            # Manual evaluation template
+│   ├── human_evaluation.csv            # Manual evaluation template
+│   └── lang_perf_run_output.txt        # Experiment execution log
 │
 ├── scripts/
 │   └── lang_perf.py                    # Data collection script
 │
 ├── docs/
-│   ├── lang_perf_run_output.txt        # Experiment execution log
 │   ├── METHODOLOGY.md                  # Detailed methods
 │   ├── REPLICATION_GUIDE.md            # How to reproduce
 │   └── CITATION.md                     # How to cite
