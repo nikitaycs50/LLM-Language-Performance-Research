@@ -198,7 +198,7 @@ This work has been assigned a DOI (Digital Object Identifier) through Zenodo:
 
 All citations above have been updated to include the DOI. When citing this work, please include the DOI for proper attribution and persistent access.
 
-**Zenodo record:** https://zenodo.org/record/18183880
+**Zenodo record:** https://zenodo.org/records/18183880
 
 ---
 

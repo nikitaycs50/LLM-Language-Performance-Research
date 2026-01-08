@@ -338,6 +338,7 @@ This work is licensed under the **MIT License** - see [LICENSE](LICENSE) file fo
 - **Full Research Paper:** [Read online](paper/full_research_paper.md) | [Download PDF](paper/pdf/full_research_paper.pdf)
 - **Research Summary:** [Read online](paper/research_summary.md) | [Download PDF](paper/pdf/research_summary.pdf) - Executive summary and key findings
 - **Abstract:** [Read online](paper/abstract.md) | [Download PDF](paper/pdf/Abstract.pdf)
+- **DOI:** [10.5281/zenodo.18183880](https://doi.org/10.5281/zenodo.18183880) | [Zenodo Record](https://zenodo.org/records/18183880)
 - **LinkedIn Article:** [Summary and key findings](#) *(link after publication)*
 - **Author:** [Nikita Yampolski](https://yampolski.net)
 - **Contact:** [yampolski.net](https://yampolski.net)
